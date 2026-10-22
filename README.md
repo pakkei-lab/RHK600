@@ -1,5 +1,7 @@
-RHK600 V1.1
-Closing times matched by CP number from the previously supplied table: {1: '11:36', 2: '13:30', 3: '18:24', 4: '21:48', 5: '03:44', 6: '13:36', 7: '16:16', 8: '18:52', 9: '22:32'}
-Finish 00:00. Clock times only; no calendar dates inferred. Existing custom time fields remain optional and do not replace the table time. All other route data, features and controls unchanged. Internet required for map services. Live browser behavior not tested.
+# RHK600 GitHub hosting bundle
 
-V1.2: Start 23-Oct-2026 08:00 Hong Kong; pace 18 km/h. Removed CP3/CP7 departure anchors. Sole CP5 departure anchor defaults to 24-Oct-2026 07:00 (next day assumed). CP5 arrival uses start pace; downstream uses later of CP5 arrival and configured departure. Dates editable. All other route and closing data unchanged.
+Extract this ZIP and upload its contents to the repository root. Entry point: index.html. No version-named HTML is included. Version is in the ZIP filename only.
+
+Added CP5.5 歐朋智能公寓 at cumulative GPX distance 305 km, without a closing time. Marker coordinates are interpolated on the existing GPX at 305 km, NOT a verified apartment entrance. The original CP5 and its closing time are unchanged.
+
+ETA departure anchor is now CP5.5, default 24-Oct-2026 06:00 Hong Kong time. Start remains 23-Oct-2026 08:00 and pace 18 km/h. CP5.5 arrival uses start pace; later checkpoints use the later of CP5.5 arrival and configured departure. Other route points, closing times, POI, GPS and controls are unchanged. Internet is required for external map services. Live browser behavior has not been tested.
