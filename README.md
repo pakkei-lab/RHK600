@@ -1,7 +1,5 @@
-# RHK600 GitHub hosting bundle
+# RHK600 V1.4
 
-Extract this ZIP and upload its contents to the repository root. Entry point: index.html. No version-named HTML is included. Version is in the ZIP filename only.
+Upload extracted files to the GitHub Pages repository root. Entry point: index.html.
 
-Added CP5.5 歐朋智能公寓 at cumulative GPX distance 305 km, without a closing time. Marker coordinates are interpolated on the existing GPX at 305 km, NOT a verified apartment entrance. The original CP5 and its closing time are unchanged.
-
-ETA departure anchor is now CP5.5, default 24-Oct-2026 06:00 Hong Kong time. Start remains 23-Oct-2026 08:00 and pace 18 km/h. CP5.5 arrival uses start pace; later checkpoints use the later of CP5.5 arrival and configured departure. Other route points, closing times, POI, GPS and controls are unchanged. Internet is required for external map services. Live browser behavior has not been tested.
+CP cards show fixed closing times only; customized closing-time fields and related text removed. CP5.5 shows departure time from the ETA setting, default 24-Oct-2026 06:00 Hong Kong time, without its long description. Title shows RHK600 V1.4. Other route data and controls unchanged. CP5.5 remains positioned on the route at 305 km, not a verified apartment entrance.
